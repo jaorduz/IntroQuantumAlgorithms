@@ -75,10 +75,21 @@ pip3 install matplotlib
 pip3 install pylatexenc
 ```
 
-## 1. Errrors <a name = errors></a>
+## 1. Potential errrors <a name = errors></a>
 
 ```bash
 ImportError: Qiskit is installed in an invalid environment that has both conda Qiskit >=1.0 and an earlier version. You should create a new virtual environment, and ensure that you do not mix dependencies between Qiskit <1.0 and >=1.0. Any packages that depend on 'qiskit-terra' are not compatible with Qiskit 1.0 and will need to be updated. Qiskit unfortunately cannot enforce this requirement during environment resolution. See https://qisk.it/packaging-1-0 for more detail.
 ```
+Solution:
+Install compatible versions of packages, you should use 
+
+```bash
+python version:  3.10.15
+qiskit==1.2.1
+qiskit-aer==0.13.3
+qiskit-ibm-provider==0.11.0
+```
 
 ## 1. References <a name = references></a>
+
+[1] <a href="https://qaldas.github.io/quaker-ece/">Quantum Computing: A gentle introduction for Liberal Arts Institutions</a>. Levi Goldberg, Shun Suzuki, Javier Orduz. WebBook 2024. 
