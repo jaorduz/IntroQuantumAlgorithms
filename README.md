@@ -1,5 +1,8 @@
 <div id="header"><p style="color:#3364ff; text-align:center; font-weight:bold; font-family:verdana; font-size:25px;">Quantum Algorithm Implementation </p></div>
 
+[![Open this NB in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aqs2CUJESGhbhRJ4tfW5U8bN4yr5FtL_)
+
+
 [licenseBDG]: https://img.shields.io/badge/License-CC-orange?style=plastic
 [license]: https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en
 
